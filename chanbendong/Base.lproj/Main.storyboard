@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Q7g-Zi-0EO">
+                                <rect key="frame" x="112" y="145" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Ykj-TK-jsH"/>
+                                </constraints>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvf-BP-HiJ">
+                                <rect key="frame" x="164" y="173" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="b1click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6vd-fo-m9g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SM-2x-RaT">
+                                <rect key="frame" x="166" y="266" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vZV-Tf-yhk">
+                                <rect key="frame" x="112" y="325" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Mgv-YF-Lq4"/>
+                                </constraints>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxC-jV-pJg">
+                                <rect key="frame" x="164" y="353" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="b2click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Rs-bP-Ogp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-Vq-WV8">
+                                <rect key="frame" x="166" y="439" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HZC-yG-I5n">
+                                <rect key="frame" x="112" y="498" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="eJa-iE-boJ"/>
+                                </constraints>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tm-9i-ZFp">
+                                <rect key="frame" x="164" y="526" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="b3click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jre-Ox-5vG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVr-fh-waA">
+                                <rect key="frame" x="166" y="86" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hvf-BP-HiJ" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="0NJ-e0-418"/>
+                            <constraint firstItem="hvf-BP-HiJ" firstAttribute="top" secondItem="Q7g-Zi-0EO" secondAttribute="bottom" constant="26" id="3hT-by-dVQ"/>
+                            <constraint firstItem="7tm-9i-ZFp" firstAttribute="top" secondItem="HZC-yG-I5n" secondAttribute="bottom" constant="26" id="7gM-eY-BP8"/>
+                            <constraint firstItem="vZV-Tf-yhk" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="9zK-e3-jnC"/>
+                            <constraint firstItem="7tm-9i-ZFp" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="CKu-3p-KnU"/>
+                            <constraint firstItem="Q7g-Zi-0EO" firstAttribute="top" secondItem="PVr-fh-waA" secondAttribute="bottom" constant="38" id="D7L-2T-6Ug"/>
+                            <constraint firstItem="8SM-2x-RaT" firstAttribute="top" secondItem="hvf-BP-HiJ" secondAttribute="bottom" constant="63" id="DOJ-8L-ZAF"/>
+                            <constraint firstItem="ge7-Vq-WV8" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="Mr7-rR-CCl"/>
+                            <constraint firstItem="HZC-yG-I5n" firstAttribute="top" secondItem="ge7-Vq-WV8" secondAttribute="bottom" constant="38" id="OOW-3Q-gCX"/>
+                            <constraint firstItem="vZV-Tf-yhk" firstAttribute="top" secondItem="8SM-2x-RaT" secondAttribute="bottom" constant="38" id="P4e-jG-vMV"/>
+                            <constraint firstItem="Q7g-Zi-0EO" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="VTM-PX-wFb"/>
+                            <constraint firstItem="8SM-2x-RaT" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="WCY-9d-ZLY"/>
+                            <constraint firstItem="UxC-jV-pJg" firstAttribute="top" secondItem="vZV-Tf-yhk" secondAttribute="bottom" constant="26" id="eSf-kI-OsM"/>
+                            <constraint firstItem="ge7-Vq-WV8" firstAttribute="top" secondItem="UxC-jV-pJg" secondAttribute="bottom" constant="56" id="huc-LI-byl"/>
+                            <constraint firstItem="UxC-jV-pJg" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="mhf-d5-bI7"/>
+                            <constraint firstItem="HZC-yG-I5n" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="oFM-kk-wU0"/>
+                            <constraint firstItem="PVr-fh-waA" firstAttribute="top" secondItem="BAK-m1-gL2" secondAttribute="top" constant="66" id="oHq-DQ-1cT"/>
+                            <constraint firstItem="PVr-fh-waA" firstAttribute="centerX" secondItem="BAK-m1-gL2" secondAttribute="centerX" id="pk2-RZ-k1p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BAK-m1-gL2"/>
+                    </view>
+                    <connections>
+                        <outlet property="b2" destination="UxC-jV-pJg" id="Kfa-Y3-0Qu"/>
+                        <outlet property="b3" destination="7tm-9i-ZFp" id="ZSC-fJ-eoW"/>
+                        <outlet property="btn1" destination="hvf-BP-HiJ" id="7ps-Us-9PA"/>
+                        <outlet property="l2" destination="8SM-2x-RaT" id="Uuo-pR-OBj"/>
+                        <outlet property="l3" destination="ge7-Vq-WV8" id="eNZ-ti-Z27"/>
+                        <outlet property="progressL1" destination="PVr-fh-waA" id="auv-f4-ngA"/>
+                        <outlet property="progressv1" destination="Q7g-Zi-0EO" id="IZ0-iW-IhR"/>
+                        <outlet property="v2" destination="vZV-Tf-yhk" id="Kgc-zr-gII"/>
+                        <outlet property="v3" destination="HZC-yG-I5n" id="4Pu-e2-I6L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="124.58770614692655"/>
+        </scene>
+    </scenes>
+</document>
