@@ -1,0 +1,4 @@
+# ZJDownloadManager
+
+一个下载器，可以实现队列下载，多文件下载，断点续传
+其中ZJDownloadSessionManager封装了NSURLSessionDownloadTask，可以实现后台下载
